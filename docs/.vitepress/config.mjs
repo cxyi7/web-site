@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/cxyi7/',
+  base: '/web-site/',
   title: "cxyi7的个人网站",
   description: "cxyi7的个人网站站点",
   lastUpdated: true,
