@@ -2,14 +2,42 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'zh-CN',
   base: '/web-site/',
   title: "cxyi7的个人网站",
   description: "cxyi7的个人网站站点",
   lastUpdated: true,
-  search: {
-    provider: 'local'
-  },
+
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
+
+    // 最后更新时间
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }
+    },
+
+    // 文章翻页
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+
+    // 移动端 - 外观
+    darkModeSwitchLabel: '外观',
+
+    // 移动端 - 返回顶部
+    returnToTopLabel: '返回顶部',
+
+    // 移动端 - menu
+    sidebarMenuLabel: '菜单',
+
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页',link: '/home' },
@@ -18,11 +46,12 @@ export default defineConfig({
       { text: '网站',link: '/site/' }
     ],
 
+
     sidebar: [
       {
         text: '指南',
         items: [
-          { text: '自我介绍',link: '/home' },
+          { text: '介绍',link: '/home' },
           { text: '更新日志',link: '/update-log' }
         ]
       },
