@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/web-site/',
   title: "cxyi7的个人网站",
   description: "cxyi7的个人网站站点",
-  lastUpdated: true,
+  // lastUpdated: true,
 
   themeConfig: {
     search: {
@@ -14,13 +14,13 @@ export default defineConfig({
     },
 
     // 最后更新时间
-    lastUpdated: {
-      text: '最后更新时间',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
-    },
+    // lastUpdated: {
+    //   text: '最后更新时间',
+    //   formatOptions: {
+    //     dateStyle: 'full',
+    //     timeStyle: 'medium'
+    //   }
+    // },
 
     // 文章翻页
     docFooter: {
@@ -61,7 +61,16 @@ export default defineConfig({
         items: [
           { text: '面试',link: '/job/interview/' },
           { text: '收藏',link: '/job/collect/' },
-          { text: '技术文章',link: '/job/article/' },
+          {
+            text: '技术文章',link: '/job/article/',
+            collapsed: false,
+            items: [
+              {
+                text: 'vitepress的使用和部署',
+                link: '/job/article/20241128-vitepress',
+              },
+            ]
+          },
           { text: '脚手架',link: '/job/scaffold/' },
           { text: '组件库',link: '/job/componentLibrary/' },
           { text: '方法库',link: '/job/methodLibrary/' },
