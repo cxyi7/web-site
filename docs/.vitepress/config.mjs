@@ -103,30 +103,69 @@ export default defineConfig({
       },
       {
         text: '工作',
-        collapsed: false,
         items: [
-          { text: '面试',link: '/job/interview/' },
-          { text: '收藏',link: '/job/collect/' },
           {
-            text: '技术文章',link: '/job/article/',
+            text: '程序员',
+            link: '/job/programmer/',
             collapsed: false,
             items: [
+              { text: '面试',link: '/job/programmer/interview/' },
+              { text: '收藏',link: '/job/programmer/collect/' },
               {
-                text: 'vitepress的使用和部署',
-                link: '/job/article/20241128-vitepress',
+                text: '技术文章',link: '/job/programmer/article/',
+                collapsed: false,
+                items: [
+                  {
+                    text: 'vitepress的使用和部署',
+                    link: '/job/programmer/article/20241128-vitepress',
+                  },
+                ]
               },
+              { text: '脚手架',link: '/job/programmer/scaffold/' },
+              { text: '组件库',link: '/job/programmer/componentLibrary/' },
+              { text: '方法库',link: '/job/programmer/methodLibrary/' },
             ]
           },
-          { text: '脚手架',link: '/job/scaffold/' },
-          { text: '组件库',link: '/job/componentLibrary/' },
-          { text: '方法库',link: '/job/methodLibrary/' },
+          {
+            text: '产品经理',
+            link: '/job/productManager/',
+            collapsed: false,
+            items: [
+              { text: '面试',link: '/job/productManager/interview/' },
+              { text: '收藏',link: '/job/productManager/collect/' },
+            ]
+          },
+          {
+            text: '设计师',
+            link: '/job/designer/',
+            collapsed: false,
+            items: [
+              { text: '收藏',link: '/job/designer/collect/' },
+            ]
+          },
+          {
+            text: '销售',
+            link: '/job/sales/',
+            collapsed: false,
+            items: [
+              { text: '收藏',link: '/job/sales/collect/' },
+            ]
+          }
         ]
       },
       {
         text: '生活',
-        collapsed: false,
         items: [
-          { text: '随笔',link: '/life/essay/' },
+          {
+            text: '随笔',
+            link: '/life/essay/',
+            items: [
+              {
+                text: '产品启示录观后感',
+                link: '/life/essay/20241202-thingk',
+              }
+            ]
+          },
           { text: '点子',link: '/life/idea/' },
           { text: '旅游',link: '/life/travel/' },
         ]
