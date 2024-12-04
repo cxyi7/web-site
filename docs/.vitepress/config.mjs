@@ -107,13 +107,13 @@ export default defineConfig({
           {
             text: '程序员',
             link: '/job/programmer/',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '面试',link: '/job/programmer/interview/' },
               { text: '收藏',link: '/job/programmer/collect/' },
               {
                 text: '技术文章',link: '/job/programmer/article/',
-                collapsed: false,
+                collapsed: true,
                 items: [
                   {
                     text: 'vitepress的使用和部署',
@@ -129,7 +129,7 @@ export default defineConfig({
           {
             text: '产品经理',
             link: '/job/productManager/',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '面试',link: '/job/productManager/interview/' },
               { text: '收藏',link: '/job/productManager/collect/' },
@@ -138,7 +138,7 @@ export default defineConfig({
           {
             text: '设计师',
             link: '/job/designer/',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '收藏',link: '/job/designer/collect/' },
             ]
@@ -146,7 +146,7 @@ export default defineConfig({
           {
             text: '销售',
             link: '/job/sales/',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '收藏',link: '/job/sales/collect/' },
             ]
@@ -159,6 +159,7 @@ export default defineConfig({
           {
             text: '随笔',
             link: '/life/essay/',
+            collapsed: true,
             items: [
               {
                 text: '产品启示录观后感',

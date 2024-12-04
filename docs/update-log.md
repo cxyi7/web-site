@@ -1,3 +1,12 @@
+<!--
+ * @Author: yoboom 1369276645@qq.com
+ * @Date: 2024-11-22 15:21:11
+ * @LastEditors: yoboom 1369276645@qq.com
+ * @LastEditTime: 2024-12-04 09:06:01
+ * @FilePath: \study\docs\update-log.md
+ * @Description: 
+ * 
+-->
 ---
 outline: deep
 title: 更新日志
@@ -5,6 +14,9 @@ titleTemplate: cxyi7的个人网站站点
 ---
 
 # 更新日志
+
+## 2024/12/04 :grinning:
+更新[《打造用户喜爱的产品-启示录》 观后感](/life/essay/20241202-thingk)
 
 ## 2024/12/02 :grinning:
 更改目录结构，新增第一篇随笔[《打造用户喜爱的产品-启示录》 观后感](/life/essay/20241202-thingk)
