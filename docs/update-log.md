@@ -6,6 +6,10 @@ titleTemplate: cxyi7的个人网站站点
 
 # 更新日志
 
+## 2024/12/05 :yum:
+新增[关于复利的理解](/life/essay/20241204-thingk)
+
+
 ## 2024/12/04 :grinning:
 更新[《打造用户喜爱的产品-启示录》 观后感](/life/essay/20241202-thingk)
 

@@ -164,6 +164,10 @@ export default defineConfig({
               {
                 text: '产品启示录观后感',
                 link: '/life/essay/20241202-thingk',
+              },
+              {
+                text: '关于复利的理解',
+                link: '/life/essay/20241204-thingk',
               }
             ]
           },
