@@ -168,7 +168,11 @@ export default defineConfig({
               {
                 text: '关于复利的理解',
                 link: '/life/essay/20241204-thingk',
-              }
+              },
+              {
+                text: '关于职场裙带关系',
+                link: '/life/essay/20241206-thingk',
+              },
             ]
           },
           { text: '点子',link: '/life/idea/' },
