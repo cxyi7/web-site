@@ -174,7 +174,7 @@ export default defineConfig({
                 link: '/life/essay/20241206-thingk',
               },
               {
-                text: '关于职场裙带关系',
+                text: '关于跳槽的想法',
                 link: '/life/essay/20241217-thingk',
               },
             ]

@@ -6,7 +6,7 @@ titleTemplate: cxyi7的个人网站站点
 
 # 更新日志
 
-## 2024/12/06 :smile:
+## 2024/12/06 :muscle:
 新增[关于跳槽的想法](/life/essay/20241217-thingk)
 
 ## 2024/12/06 :triumph:
