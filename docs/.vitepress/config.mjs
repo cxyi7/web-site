@@ -86,10 +86,10 @@ export default defineConfig({
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '主页',link: '/home' },
-      { text: '工作',link: '/job/' },
-      { text: '生活',link: '/life/' },
-      { text: '网站',link: '/site/' }
+      { text: '主页', link: '/home' },
+      { text: '工作', link: '/job/' },
+      { text: '生活', link: '/life/' },
+      { text: '网站', link: '/site/' }
     ],
 
 
@@ -97,8 +97,8 @@ export default defineConfig({
       {
         text: '指南',
         items: [
-          { text: '介绍',link: '/home' },
-          { text: '更新日志',link: '/update-log' }
+          { text: '介绍', link: '/home' },
+          { text: '更新日志', link: '/update-log' }
         ]
       },
       {
@@ -109,10 +109,10 @@ export default defineConfig({
             link: '/job/programmer/',
             collapsed: true,
             items: [
-              { text: '面试',link: '/job/programmer/interview/' },
-              { text: '收藏',link: '/job/programmer/collect/' },
+              { text: '面试', link: '/job/programmer/interview/' },
+              { text: '收藏', link: '/job/programmer/collect/' },
               {
-                text: '技术文章',link: '/job/programmer/article/',
+                text: '技术文章', link: '/job/programmer/article/',
                 collapsed: true,
                 items: [
                   {
@@ -121,9 +121,9 @@ export default defineConfig({
                   },
                 ]
               },
-              { text: '脚手架',link: '/job/programmer/scaffold/' },
-              { text: '组件库',link: '/job/programmer/componentLibrary/' },
-              { text: '方法库',link: '/job/programmer/methodLibrary/' },
+              { text: '脚手架', link: '/job/programmer/scaffold/' },
+              { text: '组件库', link: '/job/programmer/componentLibrary/' },
+              { text: '方法库', link: '/job/programmer/methodLibrary/' },
             ]
           },
           {
@@ -131,8 +131,8 @@ export default defineConfig({
             link: '/job/productManager/',
             collapsed: true,
             items: [
-              { text: '面试',link: '/job/productManager/interview/' },
-              { text: '收藏',link: '/job/productManager/collect/' },
+              { text: '面试', link: '/job/productManager/interview/' },
+              { text: '收藏', link: '/job/productManager/collect/' },
             ]
           },
           {
@@ -140,7 +140,7 @@ export default defineConfig({
             link: '/job/designer/',
             collapsed: true,
             items: [
-              { text: '收藏',link: '/job/designer/collect/' },
+              { text: '收藏', link: '/job/designer/collect/' },
             ]
           },
           {
@@ -148,7 +148,7 @@ export default defineConfig({
             link: '/job/sales/',
             collapsed: true,
             items: [
-              { text: '收藏',link: '/job/sales/collect/' },
+              { text: '收藏', link: '/job/sales/collect/' },
             ]
           }
         ]
@@ -173,10 +173,14 @@ export default defineConfig({
                 text: '关于职场裙带关系',
                 link: '/life/essay/20241206-thingk',
               },
+              {
+                text: '关于职场裙带关系',
+                link: '/life/essay/20241217-thingk',
+              },
             ]
           },
-          { text: '点子',link: '/life/idea/' },
-          { text: '旅游',link: '/life/travel/' },
+          { text: '点子', link: '/life/idea/' },
+          { text: '旅游', link: '/life/travel/' },
         ]
       },
       {

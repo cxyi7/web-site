@@ -1,2 +1,8 @@
 node_modules
 
+# 忽略 package-lock.json 文件
+package-lock.json
+
+# 忽略 docs 目录下 .vitepress 目录中的特定文件
+docs/.vitepress/cache
+

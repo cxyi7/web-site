@@ -6,6 +6,9 @@ titleTemplate: cxyi7的个人网站站点
 
 # 更新日志
 
+## 2024/12/06 :smile:
+新增[关于跳槽的想法](/life/essay/20241217-thingk)
+
 ## 2024/12/06 :triumph:
 新增[关于职场裙带关系](/life/essay/20241206-thingk)
 
