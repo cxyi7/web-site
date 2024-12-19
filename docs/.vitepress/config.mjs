@@ -179,7 +179,16 @@ export default defineConfig({
               },
             ]
           },
-          { text: '点子', link: '/life/idea/' },
+          {
+            text: '点子',
+            link: '/life/idea/',
+            items: [
+              {
+                text: '站得高看的确实远',
+                link: '/life/essay/20241218-idea',
+              },
+            ]
+          },
           { text: '旅游', link: '/life/travel/' },
         ]
       },
