@@ -182,10 +182,11 @@ export default defineConfig({
           {
             text: '点子',
             link: '/life/idea/',
+            collapsed: true,
             items: [
               {
                 text: '站得高看的确实远',
-                link: '/life/essay/20241218-idea',
+                link: '/life/idea/20241219-idea',
               },
             ]
           },
