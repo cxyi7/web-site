@@ -6,6 +6,9 @@ titleTemplate: cxyi7的个人网站站点
 
 # 更新日志
 
+## 2024/12/21
+新增[点子](/life/idea/20241221-idea)
+
 ## 2024/12/18 
 新增[点子](/life/idea/20241219-idea)
 

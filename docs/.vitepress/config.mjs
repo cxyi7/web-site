@@ -188,6 +188,10 @@ export default defineConfig({
                 text: '站得高看的确实远',
                 link: '/life/idea/20241219-idea',
               },
+              {
+                text: '做正确的事情',
+                link: '/life/idea/20241221-idea',
+              },
             ]
           },
           { text: '旅游', link: '/life/travel/' },
